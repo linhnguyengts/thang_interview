@@ -1,0 +1,80 @@
+@charset"utf-8";
+
+body{
+    background-image: url(nen.jpg);
+    background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:50% 50%;
+    padding: 0;
+     
+}
+.noidung{
+    margin-top: -50px;
+}
+p{
+    margin-top: -10px;
+    margin-bottom: 1px;
+   
+    margin-left: 130px;
+    font-weight: bold;
+     font-size: 13px;
+    font-style: normal;
+}
+h3{
+    font-family:arial;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 19px;
+    
+}
+h4{
+    font-family:arial;
+    font-style: normal;
+    font-weight: bold;
+    
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: -5px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 860px) {
+    body{
+        height: 100%;
+        
+    }
+    p {
+   margin:auto;
+    font-size: 14px; 
+        font-weight: normal;
+        
+}
+    h3{
+        margin: auto;
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight: 50px;
+        margin-bottom: 10px;
+        max-width: 100em;
+        
+        
+        
+    }
+    h4{
+        margin: auto;
+        margin-left: 30px;
+        margin-top: 10px;
+        
+    }
+    .noidung{
+  max-width: 65em;
+  width: 85%; 
+  padding: 0 5em;
+    margin-left:     
+    }
+}
+
+
+ 
