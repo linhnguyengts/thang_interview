@@ -1,79 +1,108 @@
 @charset"utf-8";
 
+html,body{
+    
+height: 100%;
+
+}
 body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    
+}
+
+.nenmatsu{
     background-image: url(nen.jpg);
-    background-position: center;
-  background-attachment: fixed;
-  background-size:cover;
-  background-position:50% 50%;
-    padding: 0;
-     
-}
-.noidung{
-    margin-top: -50px;
-}
-p{
-    margin-top: -10px;
-    margin-bottom: 1px;
+    background-repeat: ;
+    background-size: cover;
+    margin: 0 auto 120px;
    
-    margin-left: 130px;
-    font-weight: bold;
-     font-size: 13px;
+    display: block;
+    max-width: 480px;
+    height: 100%;
+    position: relative;
+    
+}
+
+
+p{
+    margin-top: -20px;
+    margin-bottom: 1px;
+    margin-left: 100px;
+    font-weight: normal;
+     font-size: 14px;
     font-style: normal;
+    
+    
 }
 h3{
-    font-family:arial;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: bold;
-    margin-left: 120px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 19px;
+    margin-left: 90px;
     
 }
 h4{
-    font-family:arial;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: bold;
     
-    margin-left: 150px;
-    margin-bottom: 50px;
+    margin-left: 120px;
     margin-top: -5px;
 }
+.img{
+    position: relative;
+}
+.noidung{
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
 
-@media only screen and (min-width: 375px) and (max-width: 860px) {
-    body{
-        height: 100%;
+@media only screen and (max-width: 736px) {
+
+    .nenmatsu{
         
+        
+        width: 480px;
+        height: 100%;
+    
+        display: block;
+          
     }
+    
     p {
    margin:auto;
     font-size: 14px; 
         font-weight: normal;
+        margin-left: 100px;
+        margin-top: -20px;
         
 }
     h3{
         margin: auto;
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 19px;
         font-weight: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         max-width: 100em;
+        margin-left: 90px;
         
         
         
     }
     h4{
         margin: auto;
-        margin-left: 30px;
+        margin-left: 120px;
         margin-top: 10px;
-        
+        margin-bottom: 10px;
     }
-    .noidung{
-  max-width: 65em;
-  width: 85%; 
-  padding: 0 5em;
-    margin-left:     
-    }
+    
 }
 
 
